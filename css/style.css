@@ -1,0 +1,72 @@
+body {
+    background: #000;
+}
+
+li  {
+    list-style-type: none;
+}
+
+.myPortrait {
+    width: 250px;
+    height: auto;
+    text-align: center;
+    margin-left:50px;
+    margin-top: -123px;
+    border-radius: 20px;
+}
+
+.myTitle {
+    color: #fff;
+    font-size: 60px;
+    margin-left: 390px;
+    font-family: 'Caveat', cursive;
+    font-weight: 200;
+    margin-top: 80px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.myParagraph {
+ color: ghostwhite;
+ font-size: 18px;
+ font-family:'Open Sans', sans-serif;
+ font-weight: 400;
+ margin-left: 390px;
+ margin-right: 170px;
+ margin-top: -225px;
+ letter-spacing: 1.5px;
+}
+
+.myContainer{
+    display: grid;                         
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    gap: 20px;  
+    align-items: center;
+    justify-content: center;  
+                         
+  }
+  .myBox{
+    width: 300px;    
+    height: 500px;
+    background-color: ghostwhite;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin: auto;
+}
+
+.myLine {
+    width: 1300px;
+    height: 10px;
+    margin-top:50px;
+    border-radius: 5px;
+}
+
+.myText {
+    text-align: center;
+}
+
+.myList {
+    margin: auto;
+   margin-top: 80px;
+}
